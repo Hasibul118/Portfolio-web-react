@@ -64,7 +64,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section h2,
@@ -80,6 +79,9 @@ section h2 {
 
 .text-light {
   color: var(--color-light);
+}
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 a {
