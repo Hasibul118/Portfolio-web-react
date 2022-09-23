@@ -1,24 +1,26 @@
 nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
-    display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     bottom: 2rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    transition: var(--transition);
 }
 
 nav a {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     color: var(--color-light);
     font-size: 1.1rem;
 
@@ -31,4 +33,32 @@ nav a:hover {
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
-} 
+}
+
+
+
+/* ===================== MEDIA QUARIES (SMALL DEVICE) ======================= */
+@media screen and (max-width: 600PX) {
+    nav {
+        bottom: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+    nav a {
+        font-size: 1.5rem;
+        place-content: center;
+    }
+    nav a.active, nav a:hover{
+        width: fit-content;
+    }
+    nav a.active{
+        background: none;
+        color: unset;
+    }
+    .bottom-0 {
+        bottom: 0;
+    }
+    .bottom-24 {
+        bottom: -4.7rem;
+    }
+}
