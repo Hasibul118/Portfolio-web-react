@@ -47,6 +47,7 @@ nav a.active {
     nav a {
         font-size: 1.5rem;
         place-content: center;
+        width: fit-content;
     }
     nav a.active, nav a:hover{
         width: fit-content;
