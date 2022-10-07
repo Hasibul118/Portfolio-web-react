@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/profile-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {AiFillSafetyCertificate} from 'react-icons/ai'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -29,24 +29,24 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <AiFillSafetyCertificate className='about__icon' />
+              <h5>Skills</h5>
+              <small>20+ Certification</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>50+ Completed</small>
             </article>
           </div>
 
           <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Mollitia provident ipsam fuga maiores ratione, numquam molestias 
-              incidunt laboriosam nesciunt eius? Eaque nemo quasi perspiciatis 
-              exercitationem
-            </p>
+            I am inquisitive. I like to keep it relaxed. Inhabitant tool analyst. 
+            Highly challenge-driven, focused on problem-solving. 
+            Motivated to commit the task and push it to work. 
+            Always learning new methods. It's a new day, it's a new life.
+          </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
