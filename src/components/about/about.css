@@ -6,6 +6,8 @@
 
 .about__me {
     width: 100%;
+    max-width: 290px;
+    margin: 0 0 auto auto;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
