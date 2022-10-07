@@ -38,7 +38,7 @@ nav a.active {
 
 
 /* ===================== MEDIA QUARIES (SMALL DEVICE) ======================= */
-@media screen and (max-width: 600PX) {
+@media screen and (max-width: 600px) {
     nav {
         bottom: 0;
         border-radius: 0;

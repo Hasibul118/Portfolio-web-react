@@ -27,7 +27,7 @@
 
 .contact__option-icon {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
 
 .contact__option a {
@@ -51,6 +51,7 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    font-family: sans-serif;
 }
 
 
@@ -66,7 +67,7 @@ input, textarea {
 }
 
 /* ===================== MEDIA QUARIES (SMALL DEVICE) ======================= */
-@media screen and (max-width: 600PX) {
+@media screen and (max-width: 600px) {
     .container.contact__container {
         width: var(--container-width-sm);
     }

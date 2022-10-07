@@ -32,7 +32,6 @@
 .experience__details {
     display: flex;
     gap: 1rem;
-    justify-content: center;
 }
 .experience__details-icon {
     margin-top: 5px;
@@ -58,7 +57,7 @@
 }
 
 /* ===================== MEDIA QUARIES (SMALL DEVICE) ======================= */
-@media screen and (max-width: 600PX) {
+@media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
     }
@@ -66,5 +65,12 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .experience__details {
+        justify-content: center;
     }
 }

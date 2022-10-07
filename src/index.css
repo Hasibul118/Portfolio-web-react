@@ -133,7 +133,7 @@ img {
 }
 
 /* ===================== MEDIA QUARIES (SMALL DEVICE) ======================= */
-@media screen and (max-width: 600PX) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
