@@ -6,7 +6,7 @@ import {IoMdDownload} from 'react-icons/io'
 const CTA = () => {
   return (
     <div className='cta'>
-        <div className='btn' style={{display: 'flex', gap: '0.5rem', paddingBottom: '0.6rem'}}>
+        <div className='btn' style={{display: 'flex', gap: '0.5rem', paddingBottom: '0'}}>
           <a href={CV} download >Resume</a>
           <div style={{marginTop: '3px'}}>
             <IoMdDownload />
