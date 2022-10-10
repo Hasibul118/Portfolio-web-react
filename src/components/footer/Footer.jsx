@@ -5,7 +5,7 @@ import {BsLinkedin, BsGithub, BsFacebook} from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Hasibul Hasan</a>
+      <a href="#" className='footer__logo' style={{border: 'none'}}>Hasibul Hasan</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
