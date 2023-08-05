@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:wght@100&display=swap');
+
 
 * {
   margin: 0;
@@ -12,7 +14,7 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #080820;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);

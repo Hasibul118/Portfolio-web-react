@@ -26,16 +26,17 @@
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 .experience__details {
     display: flex;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 .experience__details-icon {
     margin-top: 5px;
     color: var(--color-primary);
+    margin-right: 1rem;
 }
 
 
