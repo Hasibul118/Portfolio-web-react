@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './footer.css'
 import {BsLinkedin, BsGithub, BsFacebook} from 'react-icons/bs'
