@@ -11,6 +11,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
+
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
@@ -29,6 +30,13 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+/* ===================== MEDIA QUARIES (LAPTOP DEVICE) ======================= */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 

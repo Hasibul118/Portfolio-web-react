@@ -8,8 +8,7 @@
 .contact__options {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
-    margin-top: -6.7rem;
+    gap: 2.5rem;
 }
 
 .contact__option {
@@ -28,6 +27,10 @@
 .contact__option-icon {
     font-size: 1.5rem;
     margin-bottom: 0.2rem;
+}
+
+.contact__option h5 {
+    font-size: 14px;
 }
 
 .contact__option a {
@@ -54,6 +57,13 @@ input, textarea {
     font-family: sans-serif;
 }
 
+
+/* ===================== MEDIA QUARIES (LAPTOP DEVICE) ======================= */
+@media screen and (min-width: 1025px) {
+    .container.contact__container {
+        min-width: 800px;
+    }
+}
 
 /* ===================== MEDIA QUARIES (MEDIUM DEVICE) ======================= */
 @media screen and (max-width: 1024px) {
