@@ -34,7 +34,7 @@ const Experience = () => {
 
             <article className="experience__details">
               <div>
-                <h4 className="text-uppercase">bootstrap</h4>
+                <h4 className="text-uppercase">react</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -42,22 +42,31 @@ const Experience = () => {
             <article className="experience__details">
               <div>
                 <h4 className="text-uppercase">tailwind</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
               <div>
-                <h4 className="text-uppercase">react</h4>
+                <h4 className="text-uppercase">bootstrap</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+
           </div>
         </div>
 
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
+
+          <article className="experience__details">
+              <div>
+                <h4 className="text-uppercase">Next.js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
             <article className="experience__details">
               <div>
                 <h4 className="text-uppercase">node.js</h4>
@@ -74,14 +83,14 @@ const Experience = () => {
 
             <article className="experience__details">
               <div>
-                <h4 className="text-uppercase">php</h4>
-                <small className="text-light">Intermediate</small>
+                <h4 className="text-uppercase">mysql</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
               <div>
-                <h4 className="text-uppercase">mysql</h4>
+                <h4 className="text-uppercase">php</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -92,13 +101,7 @@ const Experience = () => {
                 <small className="text-light">Basic</small>
               </div>
             </article>
-
-            <article className="experience__details">
-              <div>
-                <h4 className="text-uppercase">Next.js</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
+            
           </div>
         </div>
       </div>
