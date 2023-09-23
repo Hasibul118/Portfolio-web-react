@@ -39,14 +39,13 @@ const data = [
     id: 5,
     image: IMG5,
     title: "A personal portfolio website for everyone",
-    github: "https://habitoftheday.web.app/",
-    demo: "https://github.com/Hasibul118/habit-of-the-day",
-  }
+    github: "https://github.com/Hasibul118/habit-of-the-day",
+    demo: "https://habitoftheday.web.app/",
+  },
 ];
 
 const Portfolio = () => {
-
-  console.log(data)
+  console.log(data);
 
   return (
     <section id="portfolio">
@@ -62,6 +61,10 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
+                <a href={demo} className="btn" target="_blank" rel="noreferrer">
+                  Live
+                </a>
+
                 {github !== undefined && (
                   <a
                     href={github}
@@ -69,12 +72,9 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github
+                    GitHub
                   </a>
                 )}
-                <a href={demo} className="btn" target="_blank" rel="noreferrer">
-                  Live Demo
-                </a>
               </div>
             </article>
           );
